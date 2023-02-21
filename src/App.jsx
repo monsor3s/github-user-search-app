@@ -4,7 +4,7 @@ import "../src/styles/mixins.sass"
 import Header from "./components/Header/Header"
 
 
-function App() {
+function App() { 
 
   return (
     <Header />
