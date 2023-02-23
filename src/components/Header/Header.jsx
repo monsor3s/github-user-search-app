@@ -3,6 +3,7 @@ import Title from './Title'
 import LightMode from './LightMode'
 
 import "../../styles/components/header.sass"
+import Inputs from './Inputs'
 
 function Header() {
   return (
@@ -12,6 +13,7 @@ function Header() {
           <Title />
           <LightMode />
         </div>
+        <Inputs />
       </div>
     </header>
   )
