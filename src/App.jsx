@@ -8,10 +8,10 @@ import MainContainer from "./components/Body/MainContainer"
 function App() { 
 
   return (
-    <>
-    <Header />
-    <MainContainer />
-    </>
+    <div className="container">
+      <Header />
+      <MainContainer />
+    </div>
   )
 }
 
