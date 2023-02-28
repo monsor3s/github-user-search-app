@@ -7,9 +7,9 @@ import Inputs from './Inputs'
 
 function Header() {
   return (
-    <header className="container-header">
-      <div className="main-header">
-        <div className="top-header">
+    <header className="container-navbar">
+      <div className="main-navbar">
+        <div className="top-navbar">
           <Title />
           <LightMode />
         </div>
