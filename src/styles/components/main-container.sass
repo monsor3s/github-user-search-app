@@ -11,9 +11,14 @@
 .body-header
   display: flex
   align-items: flex-start
+  flex-direction: column
   width: 662px
   height: 344px
   background-color: variables.$dark-cyan
+
+.logo-profile
+  background-color: variables.$dark-cyan
+  display: inline-block
 
 .main-header
   display: inline-block
@@ -21,11 +26,7 @@
   height: 134px
   background-color: variables.$dark-cyan
   box-sizing: border-box
-  margin: 0 0 0 37px
-
-.logo-profile
-  background-color: variables.$dark-cyan
-  display: inline-block
+  // margin: 0 0 0 37px
 
 .main-title
   font-size: 2.6rem
@@ -54,3 +55,27 @@
   display: block
   background-color: variables.$dark-cyan
   margin-top: 20px
+
+.stats-container
+  width: 100%
+  height: 85px
+  display: flex
+  align-items: center
+  justify-content: space-around
+  overflow: hidden
+  border-radius: 1rem
+
+.separador-div
+  height: auto
+
+.data-title
+  font-size: 1.3rem
+  color: variables.$white
+  font-weight: bold
+  margin: 0
+
+.data-number
+  font-size: 2.2rem
+  color: variables.$white
+  font-weight: bold
+  margin: 0
