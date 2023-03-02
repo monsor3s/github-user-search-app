@@ -1,5 +1,10 @@
 import "../../styles/components/main-container.sass"
+
 import Logo from "../../assets/logo-bitmap.png"
+import LocationIcon from "../../assets/icon-location.svg"
+import AnchorIcon from "../../assets/icon-website.svg"
+import TwitterIcon from "../../assets/icon-twitter.svg"
+import CompanyIcon from "../../assets/icon-company.svg"
 
 
 function MainContainer() {
@@ -27,6 +32,24 @@ function MainContainer() {
             <p className="data-number">9</p>
           </div>
         </div>
+        <footer className="link-container">
+          <div>
+            <img src={LocationIcon} alt="location icon" />
+          <a href="" className="footer-link">San Francisco</a>
+          </div>
+          <div>
+          <img src={AnchorIcon} alt="anchor icon" />
+          <a href="" className="footer-link">https:://github.blog</a>
+          </div>
+          <div>
+          <img src={LocationIcon} alt="location icon" />
+          <a href="" className="footer-link">Not Available</a>
+          </div>
+          <div>
+          <img src={CompanyIcon} alt="Company icon" />
+          <a href="" className="footer-link">@github</a>
+          </div>
+        </footer>
       </div>
     </main>
   )
