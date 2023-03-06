@@ -33,21 +33,25 @@ function MainContainer() {
           </div>
         </div>
         <footer className="link-container">
-          <div>
-            <img src={LocationIcon} alt="location icon" />
-          <a href="" className="footer-link">San Francisco</a>
-          </div>
-          <div>
-          <img src={AnchorIcon} alt="anchor icon" />
-          <a href="" className="footer-link">https:://github.blog</a>
-          </div>
-          <div>
-          <img src={LocationIcon} alt="location icon" />
-          <a href="" className="footer-link">Not Available</a>
-          </div>
-          <div>
-          <img src={CompanyIcon} alt="Company icon" />
-          <a href="" className="footer-link">@github</a>
+          <section className="footer-section">
+            <div>
+              <img src={LocationIcon} alt="location icon" className="main-icon"/>
+              <a href="" className="footer-link">San Francisco</a>
+            </div>
+            <div>
+              <img src={AnchorIcon} alt="anchor icon" className="main-icon"/>
+              <a href="" className="footer-link">https://github.blog</a>
+            </div>
+          </section>
+          <div className="footer-section">
+            <div className="row-container">
+              <img src={TwitterIcon} alt="location icon" className="main-icon"/>
+              <a href="" className="footer-link">Not Available</a>
+            </div>
+            <div className="row-container">
+              <img src={CompanyIcon} alt="Company icon" className="main-icon"/>
+              <a href="" className="footer-link">@github</a>
+            </div>
           </div>
         </footer>
       </div>
