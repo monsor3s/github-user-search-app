@@ -3,22 +3,25 @@
 
 .main-container
   width: 730px
-  height: 420px
+  height: 420px 
   background-color: variables.$dark-cyan
   border-radius: 1.5rem
   padding: 4rem
 
 .body-header
-  display: flex
-  align-items: flex-start
-  flex-direction: column
+  // display: flex
+  // align-items: flex-start
+  // flex-direction: column
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-template-rows: repeat(5, 1fr)
   width: 662px
   height: 344px
   background-color: variables.$dark-cyan
 
 .logo-profile
   background-color: variables.$dark-cyan
-  display: none
+  grid-area: 1 / 1
 
 .main-header
   display: inline-block
@@ -26,7 +29,8 @@
   height: 134px
   background-color: variables.$dark-cyan
   box-sizing: border-box
-  // margin: 0 0 0 37px
+  // grid-area: 1 / 2  
+  grid-columns: 2 / 5
 
 .main-title
   font-size: 2.6rem
@@ -64,6 +68,7 @@
   justify-content: space-around
   overflow: hidden
   border-radius: 1rem
+  grid-area: 3 / 2
 
 .separador-div
   height: auto
@@ -86,6 +91,7 @@
   display: flex
   flex-direction: column
   background-color: variables.$dark-cyan
+  grid-area: 4 / 2
 
 .footer-section
   width: 100%
@@ -94,6 +100,9 @@
   display: flex
   // align-items: center
   justify-content: space-between
+
+.row-container
+  background-color: variables.$dark-cyan
 
 .main-icon
   margin-right: 1.5rem

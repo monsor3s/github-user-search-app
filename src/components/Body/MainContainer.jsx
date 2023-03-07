@@ -34,16 +34,16 @@ function MainContainer() {
         </div>
         <footer className="link-container">
           <section className="footer-section">
-            <div>
+            <div className="row-container">
               <img src={LocationIcon} alt="location icon" className="main-icon"/>
               <a href="" className="footer-link">San Francisco</a>
             </div>
-            <div>
+            <div className="row-container">
               <img src={AnchorIcon} alt="anchor icon" className="main-icon"/>
               <a href="" className="footer-link">https://github.blog</a>
             </div>
           </section>
-          <div className="footer-section">
+          <section className="footer-section">
             <div className="row-container">
               <img src={TwitterIcon} alt="location icon" className="main-icon"/>
               <a href="" className="footer-link">Not Available</a>
@@ -52,7 +52,7 @@ function MainContainer() {
               <img src={CompanyIcon} alt="Company icon" className="main-icon"/>
               <a href="" className="footer-link">@github</a>
             </div>
-          </div>
+          </section>
         </footer>
       </div>
     </main>
